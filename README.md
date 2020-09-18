@@ -54,7 +54,7 @@ The overhead is much bigger if the assertion fails. In that case
 3. whatever is defined for the `ms_abort` macro is executed.
 
 (For details on the message buffer see section
-[`mssert_buffer`](https://github.com/mcrbt/mssert/blob/master/README.md#mssert_buffer)
+[`mssert_buffer`](https://github.com/mcrbt/mssert#mssert_buffer)
 below.)
 
 
@@ -189,13 +189,15 @@ $ make clean
 ## Copyright
 
 `mssert` - assertion header for embedded systems
+
 Copyright &copy; 2020 Daniel Haase
+
 Distributed under the **Boost Software License**, Version 1.0.
 
-See section
-[*License*](https://github.com/mcrbt/mssert/blob/master/README.md#License)
-below, accompanying file LICENSE, or copy at
-https://www.boost.org/LICENSE_1_0.txt
+
+See section [*License*](https://github.com/mcrbt/mssert#License) below,
+accompanying file LICENSE, or copy at
+[https://www.boost.org/LICENSE_1_0.txt](https://www.boost.org/LICENSE_1_0.txt).
 
 
 ## License
