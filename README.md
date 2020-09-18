@@ -98,8 +98,8 @@ For embedded applications it may be sufficient to define `ms_abort` like this:
 ```
 
 Once the program stopped to continue the current *program counter* value may
-give an idea of which assertion failed. In addition, an error LED may be turn on
-and interrupt service routines may be suspended, for instance.
+give an indication of which assertion failed. In addition, an error LED may be
+turned on and/or interrupts may be disabled, for instance.
 
 
 ### `ms_reset`
@@ -193,11 +193,6 @@ $ make clean
 Copyright &copy; 2020 Daniel Haase
 
 Distributed under the **Boost Software License**, Version 1.0.
-
-
-See section [*License*](https://github.com/mcrbt/mssert#License) below,
-accompanying file LICENSE, or copy at
-[https://www.boost.org/LICENSE_1_0.txt](https://www.boost.org/LICENSE_1_0.txt).
 
 
 ## License
