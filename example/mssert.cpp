@@ -20,6 +20,7 @@ __attribute__((const)) int main(void)
   void *ptr = ((void *)0);
   std::cout << "mssert version " << MSSERT_VERSION << std::endl;
 
+  ms_assert(1 == 1);
   ms_assert(!ptr);
   ms_assert((19 - 4 + 892) != 907);
 
